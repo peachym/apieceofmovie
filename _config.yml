@@ -1,0 +1,42 @@
+# Site settings
+title: A Piece of Movie
+tagline : "오늘의 영화 한 편, 맛있게 드세요 :)"
+description: 국내의 각종 독립영화제 소개 / 수상작 정리 / 감상작 개인 리뷰
+url: "https://a-piece-of-movie.com"
+author:
+  name: "peach-ym "
+  email: "youreyes5@naver.com"
+  url: "https://a-piece-of-movie.com"
+
+# Build settings
+baseurl: /
+markdown: kramdown
+permalink: /:title
+paginate: 8
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+# 블로그 disqus shortname
+disqus:
+  shortname: a-piece-of-movie-com
