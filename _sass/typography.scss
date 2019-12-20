@@ -3,10 +3,10 @@
 // Based on the typographic scale: 12, 14, 16, 18, 21, 24, 36, 48, 60, 72.
 //
 
-@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap&subset=korean');
+@font-face { font-family: 'Cafe24Danjunghae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 body {
-	font-family: 'Song Myung', sans-serif;
+	font-family: 'Cafe24Danjunghae', sans-serif;
 	letter-spacing: 0.01em;
 }
 
